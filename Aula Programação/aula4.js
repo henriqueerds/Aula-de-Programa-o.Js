@@ -1,0 +1,11 @@
+const a =1;
+const b =6;
+const c=5;
+const delta = b**2-(4*a*c);
+const raiz= Math.sqrt(delta);
+const x1= ((-1)*b + (Math.sqrt(delta)))/(2*a);
+const x2= ((-1)*b - (Math.sqrt(delta)))/(2*a);
+console.log("Valor do Delta é", delta);
+console.log("Valor do Raiz é", raiz);
+console.log("valor do X1 é", x1);
+console.log("Valor do x2 é", x2);
